@@ -21,3 +21,15 @@ Setup PowerCLI
 pwsh
 Install-Module -Name VMware.PowerCLI
 ```
+
+Get free ip to assign in terraform script
+```
+pwsh ./scripts/findFreeIP.ps1
+```
+
+Deploy Infrastrcture
+```
+terraform init
+terraform plan .
+terraform apply .
+```
