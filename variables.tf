@@ -97,7 +97,7 @@ variable "VDCnetworkGatewayDNS02" {
 variable "VDCnetworkGatewayStaticIPpool_start" {
   type        = string
   description = "New VDC network static ip pool start address"
-  default     = "" 
+  default     = ""
 }
 
 variable "VDCnetworkGatewayStaticIPpool_end" {
