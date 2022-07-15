@@ -1,0 +1,6 @@
+Organization       = ""
+VirtualDataCenter  = ""
+Tier0Gateways      = ""
+Tier0ExternalIP    = ""
+vCloudUser         = ""
+vCloudUserPassword = ""
