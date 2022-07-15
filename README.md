@@ -24,7 +24,7 @@ Install-Module -Name VMware.PowerCLI
 
 Get free ip to assign in terraform script
 ```
-pwsh ./scripts/findFreeIP.ps1
+pwsh ./scripts/findFreeIP.ps1 <vcloud_url> <vcloud_user> <vcloud_password> <tire0gateway_name>
 ```
 
 Deploy Infrastrcture
