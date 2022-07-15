@@ -1,3 +1,9 @@
+variable "vCloudAppliance" {
+  type        = string
+  description = "vCloud URL"
+  default     = ""
+}
+
 variable "vCloudUser" {
   type        = string
   description = "vCloud User name"
